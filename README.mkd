@@ -1,0 +1,29 @@
+# detect.py
+A simple script to extract snooker cueball stop-locations from a video file using opencv and pyffmpeg. Any billiards-like game would work equally well.
+The progress is displayed using pygame like this:
+![GUI snapshot](https://github.com/syko/snooker-heatmap/raw/master/snapshot.jpg) 
+
+# visualize.py
+A simple script to generate a semitransparent png heatmap of the locations gathered by detect.py.
+
+# Important
+
+This is a personal script for research purposes. There are hardcoded values and
+file locations and will not run out-of-the-box (like start and end times and
+input video file paths). Also the code doesn't conform to any standard, other
+than spaghetti.
+
+I wanted to generate a meaningful heatmap out of the gathered data, but I'm having difficulties finding enough snooker videos to run it on, thus the resulting heatmap is very poor.
+
+# Requirements
+- python >= 2.6
+- pyffmpeg-2.1beta
+- libavcodec-dev
+    - libavformat-dev
+    - libavutil-dev
+    - libswscale-dev
+    - zlib1g-dev
+    - libbz2-dev
+    - cython==0.13 (0.14, 0.15 will not work)
+    - numpy==1.30
+    - Probably some other things
