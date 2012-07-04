@@ -12,7 +12,6 @@ import pyffmpeg
 import pygame
 import pygame.image
 import pygame.draw
-import sqlite3
 
 def here(*args):
     """Get an absolute path by supplying a relative one (relative to this file)."""

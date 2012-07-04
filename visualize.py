@@ -1,5 +1,4 @@
 import math
-import heatmap
 from PIL import Image
 
 def get_hm_color(v, min_v, max_v):

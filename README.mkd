@@ -26,4 +26,6 @@ I wanted to generate a meaningful heatmap out of the gathered data, but I'm havi
     - libbz2-dev
     - cython==0.13 (0.14, 0.15 will not work)
     - numpy==1.30
+    - PIL
+    - pygame
     - Probably some other things
