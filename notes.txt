@@ -1,0 +1,12 @@
+python2.6
+pyffmpeg-2.1beta
+requires:
+  libavcodec-dev
+  libavformat-dev
+  libavutil-dev
+  libswscale-dev
+  zlib1g-dev
+  libbz2-dev
+  +
+  cython==0.13 (0.14, 0.15 will not work)
+  numpy==1.30

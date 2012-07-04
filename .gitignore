@@ -1,0 +1,13 @@
+archive
+*.mp4
+*.mov
+*.avi
+*.mpg
+results/*
+results_*
+lab
+confirmed_cueballs*
+heatmap.png
+heatmap_.png
+log*
+
